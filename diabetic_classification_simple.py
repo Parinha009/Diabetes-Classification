@@ -50,7 +50,7 @@ print("=" * 50)
 
 # Load dataset
 print("\nLoading dataset...")
-data = pd.read_csv('E:\\ml\\case study ml\\diabetes.csv')
+data = pd.read_csv('diabetes.csv')
 print(f"Dataset shape: {data.shape}")
 print("\nFirst 5 rows:")
 print(data.head())
